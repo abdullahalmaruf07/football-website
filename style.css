@@ -47,12 +47,29 @@ body {
 }
 
 /* mid part styles start from here  */
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0px 160px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 70%;
+    padding: 3% 3% 3%;
+    margin-left: 10%;
+    margin-right: -3%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(192, 201, 231);
 }
 
 .player img {
-    Width: 330px;
-    Height: 256px
+    Width: 250px;
+    Height: 256px;
+    margin-left: 10px;
+    margin-top: 15px;
 }
