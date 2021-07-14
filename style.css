@@ -11,10 +11,41 @@ body {
 
 /* top parts style is here */
 
+ul {
+    margin: 0%;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgb(33, 60, 180), rgb(37, 216, 132));
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(197, 241, 116);
+    font-size: 35px;
+}
+
+.top-log {
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+
 .top-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: linear-gradient(to right, rgb(38, 38, 248), rgb(2, 204, 110));
+    background-image: linear-gradient(to right, rgb(32, 71, 245), rgb(2, 204, 110));
 
 }
 
@@ -65,6 +96,7 @@ body {
     margin-top: 10%;
     border-radius: 10px;
     box-shadow: 10px 10px 40px rgb(192, 201, 231);
+    text-align: justify;
 }
 
 .player img {
