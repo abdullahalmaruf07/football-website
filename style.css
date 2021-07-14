@@ -135,14 +135,52 @@ nav li a {
     margin-bottom: 40px;
 }
 
+/* my added options style is here  */
+
+.email-data {
+    background-image: linear-gradient(to left, rgb(57, 149, 57), rgb(158, 158, 93));
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+
+.sign-up {
+    background-image: linear-gradient(to left, rgb(49, 245, 108), rgb(255, 135, 135));
+}
+
+/* help and support parst style here */
+
+.support {
+    background-image: linear-gradient(to right, rgb(78, 40, 40), black);
+    padding-top: 6px;
+    padding-bottom: 15px;
+    color: wheat;
+}
+
+.help-desk {
+    text-align: center;
+
+}
+
+.helps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 230px;
+    margin-bottom: 30px;
+}
+
+
+
 /* footer style here */
 
 footer {
     height: 212px;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(250, 202, 202);
+    padding-top: 25px;
 }
 
 .icons {
